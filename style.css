@@ -1,0 +1,56 @@
+.row {
+	height: 250px;
+	max-width: 1200px;
+	background-color: #aaeeff;
+	position: relative;
+	margin: 0 auto;
+}
+#slider {
+	height: 100px;
+	margin: 0 auto;
+	width: 95%;
+	background-color: #ffaaee;
+	box-shadow: 0 0 0 1px black;
+	overflow: hidden;
+}
+#content {
+}
+.photo {
+	float: left;
+	box-shadow: 0 0 0 1px black;
+	margin: 0 5px;
+	height: 100px;
+	width: 300px;
+}
+.photo1 {
+	background-color: #557733;
+}
+.photo2 {
+	background-color: #773355;
+}
+.clear {
+	clear: both;
+}
+#line {
+	height: 2px;
+	width: 150px;
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	transform: translateX(-75px);
+	z-index: 1
+}
+#polz {
+	position: absolute;
+	height: 8px;
+	left: 0px;
+	top: -3px;
+	width: 40px;
+	box-shadow: 0 0 0 1px white;
+	background-color: black;
+	z-index: 2;
+}
+#polz:hover {
+	cursor: pointer;
+}
